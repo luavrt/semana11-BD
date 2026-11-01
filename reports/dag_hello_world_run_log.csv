@@ -1,0 +1,4 @@
+timestamp,dag_id,logical_date,task_id,attempt,status,message
+2026-10-18T22:30:01.682818,dag_hello_world,2025-01-15,inicio,1,success,ok_inicio
+2026-10-18T22:30:01.682944,dag_hello_world,2025-01-15,processar,1,success,dados_processados
+2026-10-18T22:30:01.683101,dag_hello_world,2025-01-15,fim,1,success,ok_fim

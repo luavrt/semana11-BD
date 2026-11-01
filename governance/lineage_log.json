@@ -1,0 +1,29 @@
+[
+  {
+    "ts": "2026-10-18T22:31:04.908811",
+    "de": "sqlite/pedidos",
+    "para": "lake/raw/pedidos.csv",
+    "ops": [
+      "extração fiel sem limpeza"
+    ]
+  },
+  {
+    "ts": "2026-10-18T22:31:04.931510",
+    "de": "lake/raw/pedidos.csv",
+    "para": "lake/silver/pedidos.csv",
+    "ops": [
+      "status normalizado",
+      "total > 0",
+      "ano e mes criados"
+    ]
+  },
+  {
+    "ts": "2026-10-18T22:31:04.963178",
+    "de": "lake/silver/pedidos.csv",
+    "para": "lake/gold/features_cliente.csv",
+    "ops": [
+      "groupby cliente_id",
+      "count/mean/sum"
+    ]
+  }
+]

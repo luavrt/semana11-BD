@@ -1,0 +1,2 @@
+# Esta prática principal usa apenas bibliotecas padrão do Python.
+# Opcional, para explorar Airflow real fora da aula: apache-airflow

@@ -1,0 +1,5 @@
+timestamp,dag_id,logical_date,task_id,attempt,status,message
+2026-10-18T22:31:04.910961,pipeline_lakehouse_local,2025-01-15,extrair_raw,1,success,360
+2026-10-18T22:31:04.943063,pipeline_lakehouse_local,2025-01-15,transformar_silver,1,success,355
+2026-10-18T22:31:04.958128,pipeline_lakehouse_local,2025-01-15,validar_qualidade,1,success,"{'linhas': 355, 'erros': 0}"
+2026-10-18T22:31:04.975125,pipeline_lakehouse_local,2025-01-15,gerar_gold,1,success,59

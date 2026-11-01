@@ -1,0 +1,4 @@
+timestamp,dag_id,logical_date,task_id,attempt,status,message
+2026-10-18T22:38:34.180845,dag_backfill_demo,2025-01-10,processar_data,1,success,reports\backfill_2025-01-10.txt
+2026-10-18T22:38:34.182390,dag_backfill_demo,2025-01-11,processar_data,1,success,reports\backfill_2025-01-11.txt
+2026-10-18T22:38:34.183480,dag_backfill_demo,2025-01-12,processar_data,1,success,reports\backfill_2025-01-12.txt

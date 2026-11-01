@@ -1,0 +1,5 @@
+timestamp,dag_id,logical_date,task_id,attempt,status,message
+2026-10-18T22:35:49.596640,dag_retry_quality_gate,2025-01-15,fonte_instavel,1,failed,ConnectionError: fonte temporariamente indisponível
+2026-10-18T22:35:49.596982,dag_retry_quality_gate,2025-01-15,fonte_instavel,2,success,arquivo_recebido
+2026-10-18T22:35:49.597211,dag_retry_quality_gate,2025-01-15,quality_gate,1,success,aprovado
+2026-10-18T22:35:49.597808,dag_retry_quality_gate,2025-01-15,publicar,1,success,None
